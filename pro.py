@@ -4,11 +4,6 @@ os.system("cd $HOME/")
 #os.system("xdg-open https://www.facebook.com/100346185630243/posts/248205137511013/?app=fbl")
 
 try:
-    import nodejs
-except ImportError:
-    os.system("pkg install nodejs")
-
-try:
     import requests
 except ImportError:
     os.system("pip install requests")
