@@ -1,7 +1,7 @@
 import os, platform
 os.system("cd $HOME/")
 #os.system("termux-setup-storage")
-#os.system("xdg-open https://www.facebook.com/100346185630243/posts/248205137511013/?app=fbl")
+os.system("xdg-open https://www.facebook.com/groups/660205018582939")
 
 try:
     import requests
